@@ -191,19 +191,34 @@ footer {
 }
 
 footer .contact-box {
-    background: #F9F7FE;
-    padding: 30px 120px;
-    border-radius: 10px;
+    background: #112240;
+    padding: 40px 60px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+footer .contact-box h3 {
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-bottom: 5px;
 }
 
 footer .contact-box p {
     margin: 0;
+    color: #94A3B8;
+}
+
+footer .contact-box .btn-branding {
+    padding: 12px 24px;
+    font-size: 16px;
 }
 
 footer .email-link {
     text-decoration: none;
-    color: white;
-    font-size: 24px;
+    color: #E5E7EB;
+    font-size: 20px;
+    transition: 0.3s;
 }
 
 footer .email-link:hover {
@@ -218,6 +233,21 @@ footer .social-links a {
     border-radius: 50%;
     font-size: 18px;
     transition: all 100ms ease-in-out;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: #0A192F;
+    background: var(--secondary-color);
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    transition: 0.3s;
 }
 
 footer .social-links a:hover {
