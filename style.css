@@ -57,7 +57,7 @@ p {
 .hero h1 {
     color: #0F172A;
     font-size: 64px;
-    letter-spacing: -1;
+    letter-spacing: -1px;
 }
 
 .hero h2 {
@@ -103,11 +103,24 @@ p {
     margin-bottom: 60px;
 }
 
+
 .img-fluid {
     width: 100%;
     max-width: 500px;
-    height: auto;
-    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.img-fluid:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.2);
+}
+
+.project-row {
+    margin-bottom: 100px;
 }
 
 .content p {
@@ -135,6 +148,11 @@ p {
 
 .project-description {
     padding: 40px;
+}
+
+.project-description h2 {
+    font-size: 36px;
+    color: #FFFFFF;
 }
 
 .logo {
