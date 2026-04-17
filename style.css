@@ -258,3 +258,20 @@ footer .social-links a:hover {
     background: #0ea5e9;
     transform: translateY(-3px);
 }
+
+.footer-note {
+    text-align: center;
+    font-size: 14px;
+    color: #94A3B8;
+    margin-top: 40px;
+}
+
+.footer-note a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.footer-note a:hover {
+    text-decoration: underline;
+}
