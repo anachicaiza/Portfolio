@@ -69,6 +69,7 @@ p {
 }
 
 .btn-branding {
+    display: inline-block;
     background: var(--secondary-color);
     border-radius: 8px;
     color: #0A192F;
@@ -123,10 +124,6 @@ p {
     margin-bottom: 100px;
 }
 
-.content p {
-    font-size: 14px;
-}
-
 .content {
     margin: 30px;
 }
@@ -174,7 +171,6 @@ nav li {
     display: inline;
     list-style: none;
     line-height: 42px;
-    margin-left: 15px;
 }
 
 nav a {
@@ -215,7 +211,7 @@ nav li.active a {
     color: #E5E7EB;
 }
 
-.about-section.row {
+.about-section .row {
     gap: 40px;
 }
 
@@ -225,6 +221,11 @@ nav li.active a {
 
 .work-section h1 {
     color: #FFFFFF;
+}
+
+.project-row {
+    margin-bottom: 100px;
+    align-items: center;
 }
 
 .project-card {
