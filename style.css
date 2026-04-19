@@ -186,6 +186,50 @@ nav li.active a {
     color: var(--secondary-color);
 }
 
+.work-section {
+    padding: 100px 20px;
+}
+
+.work-section h1 {
+    color: #FFFFFF;
+}
+
+.project-card {
+    background: #112240;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project-content h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.project-content p {
+    font-size: 14px;
+    color: #94A3B8;
+}
+
+.project-buttons {
+    margin-top: 15px;
+}
+
+.project-buttons a {
+    margin-right: 10px;
+}
+
 footer {
     margin: 60px 0;
 }
@@ -274,25 +318,4 @@ footer .social-links a:hover {
 
 .footer-note a:hover {
     text-decoration: underline;
-}
-
-.about-section {
-    padding: 100px 20px;
-}
-
-.about-text h1 {
-    font-size: 48px;
-    color: #FFFFFF;
-}
-
-.about-text h2 {
-    font-size: 20px;
-    color: #94A3B8;
-    margin-bottom: 20px;
-}
-
-.about-text p {
-    font-size: 16px;
-    line-height: 1.7;
-    color: #E5E7EB;
 }
